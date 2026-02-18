@@ -13,7 +13,8 @@ Built using:
 ---
 
 ## 🚀 Live Demo
-(Coming Soon – Deploy on Streamlit Cloud)
+🔗 https://zomato-popularity-prediction-kbsr2wrxmappkutyjdokv2a.streamlit.app/
+
 
 ---
 
