@@ -27,9 +27,6 @@ rest_type_options = joblib.load("rest_type_list.pkl")
 # 📊 Model Accuracy: 97%  
 # 📈 ROC-AUC Score: 0.99  
 
-# 🔗 GitHub: https://github.com/yourusername  
-# 🔗 LinkedIn: https://linkedin.com/in/yourprofile  
-# """)
 
 
 st.set_page_config(page_title="Zomato Popularity Predictor", layout="centered")
@@ -191,9 +188,9 @@ if st.button("Predict Popularity"):
         st.text(str(e))
 
 
-# -------------------------------
+
 # Only ONE About Button
-# -------------------------------
+
 
 st.markdown("---")
 
