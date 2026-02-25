@@ -13,25 +13,6 @@ model = joblib.load("model (2).pkl")
 cuisine_options = joblib.load("cuisine_list.pkl")
 rest_type_options = joblib.load("rest_type_list.pkl")
 
-# st.markdown("---")
-# st.subheader("👨‍💻 About the Developer")
-# st.markdown("""
-# **Developed by:** Alok Sahu  
-
-# This project uses:
-# - Random Forest Classifier
-# - TF-IDF Vectorization
-# - SHAP Explainability
-# - Streamlit for Deployment
-
-# 📊 Model Accuracy: 97%  
-# 📈 ROC-AUC Score: 0.99  
-
-# 🔗 GitHub: https://github.com/yourusername  
-# 🔗 LinkedIn: https://linkedin.com/in/yourprofile  
-# """)
-
-
 st.set_page_config(page_title="Zomato Popularity Predictor", layout="centered")
 
 st.title("🍽️ Zomato Restaurant Popularity Prediction")
