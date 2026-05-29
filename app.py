@@ -27,7 +27,6 @@ cost = st.number_input("Approx Cost (for two people)", min_value=0.0, value=500.
 online_order = st.selectbox("Online Order Available?", ["Yes", "No"])
 book_table = st.selectbox("Book Table Available?", ["Yes", "No"])
 
-# rest_type = st.text_input("Restaurant Type (e.g. Casual Dining)")
 
 st.subheader("🏪 Restaurant Type")
 
@@ -171,20 +170,15 @@ if st.button("Predict Popularity"):
         st.warning("SHAP explanation temporarily unavailable.")
         st.text(str(e))
 
-
-# -------------------------------
 # Only ONE About Button
-# -------------------------------
-
 st.markdown("---")
-
 if st.button("👨‍💻 About Developer"):
 
     st.subheader("👨‍💻 About the Developer")
 
     st.markdown("""
     **Name:** Alok Sahu  
-    **Project:** Zomato Restaurant Popularity Prediction  
+    **Project:** Zomato Restaurant Popularity Prediction Model  
     **Model:** Random Forest Classifier  
     **Accuracy:** 97%  
     **ROC-AUC:** 0.99  
